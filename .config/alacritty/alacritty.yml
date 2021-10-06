@@ -1,0 +1,26 @@
+import:
+  - /home/bose/.config/alacritty/alacritty-master/dracula.yml
+window:
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns: 100
+    lines: 30
+
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+
+  # Spread additional padding evenly around the terminal content.
+
+  dynamic_title: true
+
+
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: FiraCode Nerd Font Mono
+    style: Regular
+
+  size: 11
+

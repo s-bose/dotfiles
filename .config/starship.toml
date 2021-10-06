@@ -1,0 +1,11 @@
+[character]
+success_symbol = "[λ](bold green)"
+error_symbol = "[λ](bold red)"
+
+# success_symbol = "[❯](bold green)"
+# error_symbol = "[❯](bold red)"
+
+[conda]
+format = "[$symbol$environment](dimmed green) "
+symbol = "🅒 "
+ignore_base = false
