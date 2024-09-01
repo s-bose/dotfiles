@@ -25,3 +25,20 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+RANGER_DEVICONS_SEPARATOR=" "
+. "$HOME/.cargo/env"
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/bose/.local/share/JetBrains/Toolbox/scripts"
+
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/bose/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+export PATH=$PATH:/usr/local/go/bin
+
