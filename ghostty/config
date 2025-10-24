@@ -1,0 +1,5 @@
+background = 282c34
+font-family = Jetbrains Mono
+theme = nordfox
+keybind = super+shift+n=new_window
+macos-option-as-alt = true
